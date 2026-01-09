@@ -1,0 +1,77 @@
+.notes-section {
+    padding: 80px 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.notes-section .section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+}
+
+.notes-section .section-subtitle {
+    font-size: 18px;
+    color: #7f8c8d;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    padding: 32px 24px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card-icon-wrapper {
+    width: 64px;
+    height: 64px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin: 0;
+}
