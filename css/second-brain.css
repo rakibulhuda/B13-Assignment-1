@@ -1,0 +1,75 @@
+/* second-brain.css */
+
+.second-brain-section {
+    padding: 80px 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.second-brain-section .image-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.second-brain-section .image-container img {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+
+.content-container {
+    flex: 1;
+    max-width: 500px;
+}
+
+.section-label {
+    font-size: 14px;
+    color: #30B868;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 12px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+    max-width: 450px;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+.features-list .check-icon {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
