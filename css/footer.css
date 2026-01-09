@@ -19,7 +19,7 @@
 .footer-social {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 12px;
 }
 
@@ -36,25 +36,24 @@
 }
 
 .footer-social a {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: auto;
+    height: auto;
+    background: none;
+    border-radius: 0;
+    display: inline-block;
     text-decoration: none;
-    transition: background-color 0.2s ease;
+    transition: transform 0.2s ease;
+    padding: 4px;
 }
 
 .footer-social a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
 }
 
-.footer-social a svg {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+    display: block;
 }
 
 .footer-divider {
