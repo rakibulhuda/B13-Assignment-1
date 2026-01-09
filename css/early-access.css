@@ -1,0 +1,58 @@
+.early-access-section {
+    padding: 80px 40px;
+    background-color: #faf9f5;
+    text-align: center;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.early-access-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+}
+
+.early-access-subtitle {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 24px;
+}
+
+.early-access-button {
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 16px;
+}
+
+.early-access-button:hover {
+    background-color: #45a049;
+}
+
+.arrow-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.early-access-footer {
+    font-style: normal;
+    font-size: 16px;
+    color: #7f8c8d;
+    font-weight: 400;
+    margin: 0;
+}
